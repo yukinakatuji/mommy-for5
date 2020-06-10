@@ -1,0 +1,20 @@
+.main_menus
+  .my_page-box
+    .side-icons-a
+      .side-icon-home 
+        =icon("fas", "home", class: "icon")
+    = link_to 'マイルーム', "/tweets", method: :get
+  .message-box
+    .side-icons-b
+      .side-icon-child
+        =icon("fas","child", class: "child")
+    .message-title
+    = link_to groups_path do
+      フェロールーム
+  .information-box
+    .side-icons-c
+      .side-icon-baby
+        = link_to "#" do
+          =icon("fas","baby", class: "baby")
+    .information-title
+      アイデアルーム
